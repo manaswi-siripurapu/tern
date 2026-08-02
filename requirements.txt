@@ -1,0 +1,56 @@
+#core api and web frameworks
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+streamlit
+numpy
+pytz #timezone related
+nest-asyncio
+
+#for gemini embeddings and llms
+google-generativeai
+langchain-google-genai
+
+#vector db
+qdrant-client
+flashrank
+
+#langchain related
+langchain
+langgraph
+langchain-groq
+langchain-google-vertexai #for NeMo Guardrails internal import
+langchain-community
+langchain-openai
+pydantic>=2.0.0 #data validation
+
+#data ingestion and parsing
+unstructured #for docx/pptx partitioning
+python-pptx #parser ppt
+python-docx #parser docx
+pypdf 
+beautifulsoup4
+pdfplumber
+
+#observability (logging, tracing, metrics)
+langsmith #tracing for LangChain/LangGraph
+logfire[fastapi,requests]
+loguru
+
+#guardrails
+nemoguardrails #NVIDIA NeMo Guardrails for i/o safety
+langchain-nvidia-ai-endpoints #LangChain integration with NVIDIA ai Endpoints
+
+#llm gateway
+portkey-ai
+
+#evals
+ragas
+deepeval
+langfuse #live production monitoring, tracing & user feedback collection
+
+#embeddings
+sentence-transformers #used by flashrank reranker internally
+
+langchain_text_splitters
